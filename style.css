@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    max-width: 375px;
+    width: 100%;
+    background-color: hsl(213, 19%, 18%);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    border-radius: 0.9rem;
+}
+
+.card h2{
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.card p{
+    color: hsl(217, 12%, 63%);
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.star{
+    background-color: hsl(212, 17%, 20%);
+    width: 3rem;
+    height: 3rem;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.ratings{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+}
+
+.rate-btn{
+    background-color: hsl(212, 17%, 20%);
+    font-size: 1.2rem;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+    padding: 0.5rem;
+    border: 0;
+    border-radius: 50%;
+}
+
+.active{
+    background-color: hsl(216, 12%, 54%);
+    color: white;
+}
+
+.rate-btn:hover{
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+.submit-btn{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    padding: 0.8rem 2rem;
+    border: 0;
+    border-radius: 1.5rem;
+    width: 90%;
+    align-self: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+.submit-btn:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+
+/* Thank You Card */
+
+.thankyou-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem ;
+    
+
+}
+
+.select-stars{
+    align-self: center;
+    /* height: 2rem; */
+}
+
+.select-stars P{
+    margin-top: 1.2rem;
+    border-radius: 1.5rem;
+    padding: 0.3rem 0.8rem;
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(25, 97%, 53%);
+}
+
+.thankyou-card h2{
+    margin-top: 1.5rem;
+}
+
+/* hide Container */
+
+.hide{
+    display: none;
+}
